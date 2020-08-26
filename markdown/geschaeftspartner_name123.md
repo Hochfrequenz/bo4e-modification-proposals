@@ -27,10 +27,10 @@ Dieses Vorgehen ist konsistent mit dem jetzigen BO Messlokation, wo genau eine S
 |2|`erweiterungFirmenname`|`String[0..1]`| Erweiterung zum Firmennamen, z.B. "Bereich Süd"|
 |3|`ergaenzungFirmenname`|`String[0..1]`| Ergänzungen zum Firmennamen, z.B. "und Afrika"|
 
-### Die neue Komponente `PrivaterPersonenName`
+### Die neue Komponente `PrivaterPersonenname`
 |**\#**|**Format & Kardinalität**|**Fachliches Attribut**|**Bemerkung / Beispiel**|
 |------|-------------------------|-----------------------|------------------------|
-|4|`COM`|**PrivaterPersonenName**|
+|4|`COM`|**PrivaterPersonenname**|
 |5|`nachname`|`String[1]`| Nachname einer Person, z.B. "Musterfrau"|
 |6|`vorname`|`String[0..1]`| Vorname einer Person, z.B. "Marlene"|
 |7|`nameszusatz`|`String[0..1]`| Zusätze zum Namen, z.B. "Sängerin"|
@@ -40,6 +40,6 @@ Dieses Vorgehen ist konsistent mit dem jetzigen BO Messlokation, wo genau eine S
 |8| Geschaeftspartner | `name1` | "Erster Teil des Namens. Hier kann der Firmenname oder bei Privatpersonen beispielsweise der Nachname dagestellt werden. Beispiele: Yellow Strom GmbH oder Hagen" | _entfällt_ |
 |9| Geschaeftspartner | `name2` | "Zweiter Teil des Namens. Hier kann der eine Erweiterung zum Firmennamen oder bei Privatpersonen beispielsweise der Vorname dagestellt werden. Beispiele: Bereich Süd oder Nina" | _entfällt_ |
 |10| Geschaeftspartner | `name3` | "Dritter Teil des Namens. Hier können weitere Ergänzungen zum Firmennamen oder bei Privatpersonen Zusätze zum Namen dagestellt werden. Beispiele: und Afrika oder Sängerin" | _entfällt_ |
-|11| Geschaeftspartner | `privaterName` | - | `COM PrivaterPersonenName [0..1]` |
-|12| Geschaeftspartner | `juristischerName` | - | `COM JuristischerPersonenName [0..1]` |
+|11| Geschaeftspartner | `privaterName` | - | `COM PrivaterPersonenname [0..1]` |
+|12| Geschaeftspartner | `juristischerName` | - | `COM JuristischerPersonenname [0..1]` |
 |13| Geschaeftspartner | ergänzender Hinweis in der Doku | - | "Achtung: Es darf abhängig von der `gewerbekennzeichnung` immer nur eine Art des Namens vorhanden sein (entweder ein privaterName falls `gewerbekennzeichnung` `false` ist oder oder ein juristischerName andernfalls)." |
