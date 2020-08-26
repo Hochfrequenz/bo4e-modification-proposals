@@ -35,6 +35,8 @@ Dieses Vorgehen ist konsistent mit dem jetzigen BO Messlokation, wo genau eine S
 |6|`vorname`|`String[0..1]`| Vorname einer Person, z.B. "Marlene"|
 |7|`nameszusatz`|`String[0..1]`| Zusätze zum Namen, z.B. "Sängerin"|
 
+
+### Anpassungen am BO `Geschaeftspartner`
 |**\#**|**Betroffenes Geschäftsobjekt**|**Feld**|**bisher**|**neu**|
 |------|-------------------------------|--------|----------|-----------|
 |8| Geschaeftspartner | `name1` | "Erster Teil des Namens. Hier kann der Firmenname oder bei Privatpersonen beispielsweise der Nachname dagestellt werden. Beispiele: Yellow Strom GmbH oder Hagen" | _entfällt_ |
