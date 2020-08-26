@@ -1,0 +1,22 @@
+name: Modification Proposals Markdown to PDF
+# workflow by BaileyJM02, see  https://github.com/BaileyJM02/markdown-to-pdf
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  converttopdf:
+    name: Build PDF
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_dir: markdown
+          output_dir: pdfs
+          build_html: false
+      - uses: actions/upload-artifact@v1
+        with:
+          name: proposals
+          path: pdfs
