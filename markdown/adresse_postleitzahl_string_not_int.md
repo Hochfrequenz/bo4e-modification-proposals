@@ -1,6 +1,6 @@
-|**Datum**|**Autor**|**Link**|
-|---------|---------|--------|
-|26. August 2020|Hochfrequenz Unternehmensberatung GmbH|[Github](https://github.com/Hochfrequenz/bo4e-modification-proposals/blob/master/markdown/adresse_postleitzahl_string_not_int.md)|
+|**Datum**|**Autor**|**bestehende Doku**|**Link**|
+|---------|---------|-------------------|--------|
+|26. August 2020|Hochfrequenz Unternehmensberatung GmbH|[bo4e.de](https://www.bo4e.de/dokumentation/komponenten/com-adresse)|[Github](https://github.com/Hochfrequenz/bo4e-modification-proposals/blob/master/markdown/adresse_postleitzahl_string_not_int.md)|
 
 # Modellierung der Postleitzahl als String im COM Adresse
 Wir schlagen vor, in der Komponente `Adresse` die Postleitzahl als String und nicht als Integer zu modellieren.

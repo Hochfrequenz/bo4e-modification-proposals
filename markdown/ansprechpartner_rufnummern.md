@@ -1,6 +1,6 @@
-|**Datum**|**Autor**|**Link**|
-|---------|---------|--------|
-|26. August 2020|Hochfrequenz Unternehmensberatung GmbH|[Github](https://github.com/Hochfrequenz/bo4e-modification-proposals/blob/master/markdown/ansprechpartner_rufnummern.md)|
+|**Datum**|**Autor**|**bestende Doku**|**Link**|
+|---------|---------|-----------------|--------|
+|26. August 2020|Hochfrequenz Unternehmensberatung GmbH|[bo4e.de](https://www.bo4e.de/dokumentation/geschaeftsobjekte/bo-ansprechpartner)|[Github](https://github.com/Hochfrequenz/bo4e-modification-proposals/blob/master/markdown/ansprechpartner_rufnummern.md)|
 
 # Umbenennung des Feldes `rufnummer` im BO Ansprechpartner
 
