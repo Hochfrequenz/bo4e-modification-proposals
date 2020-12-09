@@ -44,4 +44,4 @@ Dieses Vorgehen ist konsistent mit dem jetzigen BO Messlokation, wo genau eine S
 |10| Geschaeftspartner | `name3` | "Dritter Teil des Namens. Hier können weitere Ergänzungen zum Firmennamen oder bei Privatpersonen Zusätze zum Namen dagestellt werden. Beispiele: und Afrika oder Sängerin" | _entfällt_ |
 |11| Geschaeftspartner | `privaterName` | - | `COM PrivaterPersonenname [0..1]` |
 |12| Geschaeftspartner | `juristischerName` | - | `COM JuristischerPersonenname [0..1]` |
-|13| Geschaeftspartner | ergänzender Hinweis in der Doku | - | "Achtung: Es darf abhängig von der `gewerbekennzeichnung` immer nur eine Art des Namens vorhanden sein (entweder ein privaterName falls `gewerbekennzeichnung` `false` ist oder oder ein juristischerName andernfalls)." |
+|13| Geschaeftspartner | ergänzender Hinweis in der Doku | - | "Achtung: Es muss abhängig von der `gewerbekennzeichnung` immer genau eine Art des Namens vorhanden sein (entweder ein privaterName falls `gewerbekennzeichnung` `false` ist oder oder ein juristischerName andernfalls)." |
