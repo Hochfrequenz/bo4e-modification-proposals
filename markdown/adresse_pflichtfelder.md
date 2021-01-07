@@ -12,7 +12,8 @@ Für eine gültige Adresse in Deutschland sind die Minimalanforderung eine Postl
 Gleichzeitig wird ermöglicht ein Postfach anzugeben ohne dass zusätzlich noch die Angabe von Strasse und Hausnummer verlangt wird.
 
 ## Komplette Liste aller Änderungen
-|**#**|**Betroffenes COM**|**Vorher**|**Nachher**|
-|-----|-------------------------------|----------|-----------|
-|0| Adresse | `strasse`: `String[1]` | `strasse`: `String[0.. 1]` |
-|1| Adresse | `hausnummer`: `String[1]` | `hausnummer`: `String[0.. 1]` |
+|**#**|**Betroffenes COM**|**Feld**|**Vorher**|**Nachher**|
+|-----|-------------------|--------|----------|-----------|
+|0| `Adresse` | `strasse`| `strasse`: `String[1]` | `strasse`: `String[0.. 1]` |
+|1| `Adresse` | `hausnummer` | `hausnummer`: `String[1]` | `hausnummer`: `String[0.. 1]` |
+|2| `Adresse` | ergänzender Hinweis in der Doku | - | "Achtung: Es darf immer **nur eine** Art der Adressergänzung vorhanden sein (entweder Straße und Hausnummer (exlusiv) oder ein Postfach), wenn diese angegeben werden." |
