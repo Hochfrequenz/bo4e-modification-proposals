@@ -4,6 +4,7 @@
 
 # Anpassung der Pflichtfelder im COM Adresse
 Wir schlagen vor, in der Komponente `Adresse` die Strasse und Hausnummer nicht mehr als Pflichtfelder anzugeben.
+Wir schlagen außerdem vor analog zur `messadresse`/`geoadresse`/`katasteradresse` im BO Messlokation eine XOR-Validierung einzuführen, dass entweder Straße und Hausnummer (exklusiv) oder ein Postfach angegeben wird, wenn diese angegeben werden.
 
 ## Begründung
 Für eine gültige Adresse in Deutschland sind die Minimalanforderung eine Postleitzahl und Ortsangabe. Dies ist bspw. der Fall bei größeren Insitutionen wie Universitäten oder Firmen oder bei Postfächern die keine eigene Nummer, sondern eine spezielle Postleitzahl vergeben bekommen.
