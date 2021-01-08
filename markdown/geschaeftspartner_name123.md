@@ -2,8 +2,8 @@
 |---------|---------|-----------------|--------|
 |26. August 2020|Hochfrequenz Unternehmensberatung GmbH|[bo4e.de](https://www.bo4e.de/dokumentation/geschaeftsobjekte/bo-geschaftspartner)|[Github](https://github.com/Hochfrequenz/bo4e-modification-proposals/blob/master/markdown/geschaeftspartner_name123.md)|
 
-# Ersetzen von `name1`, `name2`, `name3` im Geschäftsobjekt Geschaeftspartner durch intuitive Schlüssel
-Wir schlagen vor, im Geschäftsobjekt `Geschaeftspartner` die Felder `name1`, `name2` und `name3` durch intuitiv verständliche Bezeichnungen in zwei neuen Komponenten namens `JuristischerPersonenName` und `PrivaterPersonenName` zu ersetzen.
+# Ersetzen von `name1`, `name2`, `name3` im Geschäftsobjekt Geschaeftspartner durch dedizierte Komponenten mit intuitiv verständlichen Bezeichnungen
+Wir schlagen vor, im Geschäftsobjekt `Geschaeftspartner` die Felder `name1`, `name2` und `name3` durch intuitiv verständliche Bezeichnungen in zwei neuen Komponenten namens `JuristischerPersonenname` und `PrivaterPersonenname` zu ersetzen.
  
 ## Begründung
 Aktuell hängt die Bedeutung der Felder `name1/2/3` davon ab, ob es sich um einen gewerblichen Geschaeftspartner oder eine Privatperson handelt (die `gewerbekennzeichnung` also `true` oder `false` ist). Der Grund für diese schwer vermittelbare Mehrdeutigkeit erschließt sich nur aus der Nähe zum UTILMD-Format, in dem analog gewerbliche/private Geschäftspartner mit dem Qualifier `Z01` oder `Z02` versehen werden können, aus der sich dann die Bedeutung des Inhalts der einzelnen `NAD` Segmente ergibt.
