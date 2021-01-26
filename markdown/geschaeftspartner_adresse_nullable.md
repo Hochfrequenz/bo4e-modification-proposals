@@ -14,3 +14,4 @@ Dass die Partneradresse optional ist, macht aus unserer Sicht v.a. für den vom 
 |**#**|**Betroffenes BO**|**Feld**|**Vorher**|**Nachher**|
 |-----|-------------------|--------|----------|-----------|
 |0| `Geschäftspartner` | `partneradresse`| Adresse des Geschäftspartners, ... | Optionale Adresse des Geschäftspartners, ...|
+|1| `Geschäftspartner` | Pfeil von Geschäftspartner zu Adresse| partneradresse | partneradresse [0..1]|
