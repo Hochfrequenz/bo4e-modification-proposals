@@ -4,6 +4,10 @@ BO4E Modification Proposals
 
 Documents in this repository contain suggestions by Hochfrequenz on how to improve the `BO4E <https://www.bo4e.de>`_ standard.
 
+READONLY MODE
+#############
+This repository is archived. Please submit suggestions directly as `an issue in the dedicated repository <https://github.com/bo4e/BO4E-python/issues/new/choose>`_.
+
 How does this repository work?
 ##############################
 The proposals are written in markdown files and stored in the `markdown folder <markdown>`_.
